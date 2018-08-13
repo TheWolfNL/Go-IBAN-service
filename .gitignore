@@ -1,2 +1,5 @@
 # Make sure the server binary is excluded
 service
+
+# Exclude dependencies
+vendor

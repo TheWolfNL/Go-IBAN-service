@@ -1,5 +1,10 @@
 # Go IBAN service
 
+## Setup instructions
+- Clone this repository into a directory under $GOPATH/src
+- Run `dep ensure` (https://github.com/golang/dep#installation)
+- Run `make dev` to start the server
+
 ## Endpoints:
 - `/` - States simple usage instructions
 - `/validate` - Validates an IBAN if sent as POST field
